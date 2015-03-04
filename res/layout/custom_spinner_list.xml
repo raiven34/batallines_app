@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:text="@+id/TextView01"
+    android:id="@+id/TextView01"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="25dp"
+    android:gravity="center"
+    android:textColor="#000000">
+</TextView>

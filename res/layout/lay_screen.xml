@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/batfon"
+    android:orientation="vertical"
+    
+    
+    >
+
+   <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="22dp"
+        android:background="#CCCCCC"
+        android:focusable="true">
+        <ImageView android:layout_height="wrap_content" 
+   		   	  android:src="@drawable/conectado"
+		      android:id="@+id/img2" 
+		      android:layout_width="15dip"
+		      android:layout_marginTop="2dip">
+		      		      
+        </ImageView>
+       <TextView
+        android:id="@+id/usr_name"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:textColor="#B40404"
+        android:textSize="16dip"
+        android:layout_marginLeft="15dip"
+        
+
+
+        />            
+   </FrameLayout>
+
+<ScrollView 
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/scroll" 
+      android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    
+    android:orientation="vertical">   
+        <Button 
+                android:id="@+id/bjug"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#21610B"
+                android:layout_margin="25dip"
+                android:textSize="25dip"
+                android:text="Jugadores"
+                android:background="@drawable/edittext_rounded_corners"
+          />
+        <Button 
+                android:id="@+id/bpun"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#21610B"
+                android:layout_margin="25dip"
+                android:textSize="25dip"
+                android:text="Puntuar"
+                android:background="@drawable/edittext_rounded_corners"
+          />
+               
+        <Button 
+                android:id="@+id/bpar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#21610B"
+                android:layout_margin="25dip"
+                android:textSize="25dip"
+                android:text="Partidos"
+                android:background="@drawable/edittext_rounded_corners"
+          />
+        <Button 
+                android:id="@+id/best"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#21610B"
+                android:layout_margin="25dip"
+                android:textSize="25dip"
+                android:text="Estadísticas"
+                android:background="@drawable/edittext_rounded_corners"
+          />
+        <Button 
+                android:id="@+id/bprox"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#21610B"
+                android:layout_margin="25dip"
+                android:textSize="25dip"
+                android:text="Próximo Partido"
+                android:background="@drawable/edittext_rounded_corners"
+          />
+
+          <Button 
+                android:id="@+id/logoff"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#B40404"
+                android:layout_margin="25dip"
+                android:textSize="25dip"
+                android:text="Cerrar Sesión"
+                android:background="@drawable/edittext_rounded_corners"
+          />    
+    
+   
+
+</LinearLayout>
+</ScrollView>
+
+
+
+</LinearLayout>

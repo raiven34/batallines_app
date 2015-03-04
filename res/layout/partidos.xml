@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<LinearLayout
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:orientation="vertical"
+          
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:id="@+id/layout1" 
+    android:background="@drawable/batfon">
+   
+
+   <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="22dp"
+        android:background="#CCCCCC"
+        android:focusable="true">
+        <ImageView android:layout_height="wrap_content" 
+   		   	  android:src="@drawable/conectado"
+		      android:id="@+id/img2" 
+		      android:layout_width="15dip"
+		      android:layout_marginTop="2dip">
+		      		      
+        </ImageView>
+       <TextView
+        android:id="@+id/usr_name2"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:textColor="#B40404"
+        android:textSize="16dip"
+        android:layout_marginLeft="15dip"
+        
+
+
+        />            
+   </FrameLayout>
+       <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            
+            android:orientation="horizontal" >
+          
+        <Spinner
+            android:id="@+id/Spinnertemporada"  
+            android:layout_height="wrap_content"  
+            android:prompt="@string/temporada"  
+            android:layout_width="180dp"  
+            android:entries="@array/temporadas">            
+        </Spinner>
+        <Button 
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:text="Cargar"
+             android:id="@+id/cargar"
+             
+             android:textColor="#21610B"
+             android:gravity="center"
+        />
+    </LinearLayout> 
+    
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        
+        
+        android:focusable="true">
+
+        <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/ListView_est"
+            android:layout_width="fill_parent"
+            
+            android:layout_height="fill_parent" >
+        </ListView>
+    </FrameLayout>  
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,98 @@
+<LinearLayout
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:orientation="vertical"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:padding="5dip"
+          android:id="@+id/layout1" 
+          android:background="@drawable/batfon"
+                
+          >
+         <!--  Logo -->
+
+            <ImageView android:layout_height="100dp" 
+   		   	  android:src="@drawable/ic_launcher"
+		      android:id="@+id/img" 
+		      android:layout_width="fill_parent"
+		      android:layout_marginTop="5dip">
+		      android:gravity="center"		      
+           </ImageView>
+
+                    
+          <!--  Email Label -->
+          
+          <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#B40404"
+                android:textSize="20dip"
+                android:text="Usuario"
+                android:layout_marginTop="25dip"
+           />
+                
+          <EditText android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="20dip"
+                android:singleLine="true"
+                android:id="@+id/edusuario"
+                android:background="@drawable/edittext_rounded_corners"                
+           />
+                
+          <!--  Password Label -->
+          
+          <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#B40404"
+                android:textSize="20dip"
+                android:text="Password"/>
+                
+          <EditText android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:singleLine="true"
+                android:password="true"
+                android:id="@+id/edpassword"
+                android:background="@drawable/edittext_rounded_corners"
+                
+                />
+          <CheckBox android:id="@+id/ChkMarcame"
+                android:layout_width="wrap_content"
+                android:textColor="#0b84aa"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:text="Recrodar usuario/clave"
+                android:checked="false" />  
+          <CheckBox android:id="@+id/ChkMarcame2"
+                android:layout_width="wrap_content"
+                android:textColor="#0b84aa"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:text="No volver a preguntar"
+                android:checked="false" />      
+          <!-- Login button -->
+          <Button 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dip"
+                android:text="Login"
+                android:id="@+id/Blogin"
+                />
+          <Button android:id="@+id/actualizar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dip"
+                
+                android:text="Buscar Actualización"
+                android:gravity="center"
+                android:textSize="20dip"
+                android:textColor="#0b84aa"/>
+                
+          <!-- Link to forgot passw -->
+          
+
+ 
+</LinearLayout>
+
+
+
+

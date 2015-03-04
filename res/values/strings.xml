@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Batallines</string> 
+    <!--Other string resources also defined in this file… --> 
+    <string name="feedbacktype">Puntuar</string> 
+    <string name="feedbacktype1">1</string>  
+    <string name="feedbacktype2">2</string>  
+    <string name="feedbacktype3">3</string>  
+    <string name="feedbacktype4">4</string>
+    <string name="feedbacktype5">5</string> 
+    <string name="feedbacktype6">6</string>
+    <string name="feedbacktype7">7</string>
+    <string name="feedbacktype8">8</string>
+    <string name="feedbacktype9">9</string>
+    <string name="feedbacktype10">10</string>
+    <string name="temporada">Temporada</string>
+    <string name="jornada">Jornada</string>
+    <string name="temp1">2007/2008</string>
+    <string name="temp2">2008/2009</string>
+    <string name="temp3">2009/2010</string>
+    <string name="temp4">2010/2011</string>
+    <string name="temp5">2011/2012</string>
+    <string name="temp6">2012/2013</string>
+    <string name="temp7">2013/2014</string>
+    <string name="temp8">Todas</string>
+      
+</resources>  
